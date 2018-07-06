@@ -15,7 +15,7 @@ let AddTodo = ({ dispatch }) => {
                 input.value = ''
             }}>
                 Add Todo
-      </button>
+            </button>
         </div>
     )
 }
