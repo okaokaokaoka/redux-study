@@ -5,7 +5,7 @@ import { createStore } from 'redux'
 import todo from './reducers'
 import { addTodo, toggleTodo } from './actions';
 import App from './components/App'
-
+import { setVisibilityFilter } from './actions'
 
 let store = createStore(todo)
 
